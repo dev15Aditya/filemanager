@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  max-width: 600px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+input[type='text'],
+input[type='file'],
+button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+input[type='text'],
+input[type='file'] {
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.message {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
